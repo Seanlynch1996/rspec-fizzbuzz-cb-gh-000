@@ -1,5 +1,5 @@
 def fizzbuzz(num)
-  if num mod 3 == 0
+  if num.modulo(3) == 0
     if num mod 5 == 0
       return "Fizzbuzz"
     end
