@@ -1,11 +1,11 @@
 def fizzbuzz(num)
   if num mod 3 == 0
     if num mod 5 == 0
-      return "fizzbuzz"
+      return "Fizzbuzz"
     end
-    return "fizz"
+    return "Fizz"
   elsif num mod 5 == 0
-    return "buzz"
+    return "Buzz"
   end
   return nil
 end
