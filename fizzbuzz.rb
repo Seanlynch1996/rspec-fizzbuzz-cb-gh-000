@@ -7,4 +7,5 @@ def fizzbuzz(num)
   elsif num mod 5 == 0
     return "buzz"
   end
+  return nil
 end
